@@ -1,0 +1,33 @@
+ To create new application react-app1  
+
+#Install React JS application. It installed in USER_HOME/App/LocalData/ directory
+npm install -g create-react-app
+
+#Install React Components
+npm install -g create-react-component-folder
+
+#Creating react JS project 
+npx create-react-app simple-application
+
+#To start development server. Should be run through project directory
+npm run start
+
+#To test code. Should be run through project directory
+npm run test
+
+#To build. should be run through project directory
+npm run build
+
+#To run build. should be run through project directory
+serve -s build
+
+=============================
+#EJECT command. Used to create production customized environment. For example Browser compiler (Baber / JXS), other configuration
+npm run eject
+
+ONLY for final build
+
+
+#create react component folder command to create custom components
+crcf
+
